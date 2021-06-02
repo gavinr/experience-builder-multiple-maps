@@ -3,6 +3,9 @@
   "type": "widget",
   "version": "1.4.0",
   "exbVersion": "1.4.0",
+  "dependency": [
+    "jimu-arcgis"
+  ],
   "author": "Gavin Rehkemper",
   "description": "Example custom widget interacting with multiple map widgets",
   "copyright": "",
