@@ -1,0 +1,23 @@
+{
+  "name": "multiple-maps",
+  "type": "widget",
+  "version": "1.4.0",
+  "exbVersion": "1.4.0",
+  "dependency": [
+    "jimu-arcgis"
+  ],
+  "author": "Gavin Rehkemper",
+  "description": "Example custom widget interacting with multiple map widgets",
+  "copyright": "",
+  "license": "",
+  "properties": {
+    "hasSettingPage": false
+  },
+  "translatedLocales": [
+    "en"
+  ],
+  "defaultSize": {
+    "width": 800,
+    "height": 500
+  }
+}

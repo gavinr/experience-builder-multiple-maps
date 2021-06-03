@@ -1,0 +1,461 @@
+{
+  "pages": {
+    "page_0": {
+      "id": "page_0",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_0"
+      },
+      "isDefault": true,
+      "isVisible": true,
+      "label": "Page 1"
+    }
+  },
+  "layouts": {
+    "layout_0": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.0%",
+            "right": "84.4%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "15.6%",
+            "height": "100.0%"
+          },
+          "widgetId": "widget_1",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH"
+            },
+            "vCenter": false
+          }
+        },
+        "1": {
+          "sectionId": "section_1",
+          "type": "SECTION",
+          "bbox": {
+            "left": "15.6%",
+            "right": "0.0%",
+            "top": "5.8%",
+            "bottom": "0.0%",
+            "width": "84.4%",
+            "height": "94.2%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            }
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "15.7%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "94.3%",
+            "width": "84.3%",
+            "height": "5.7%"
+          },
+          "widgetId": "widget_2",
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      },
+      "order": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    "layout_1": {
+      "type": "FIXED",
+      "order": [
+        "0",
+        "1"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "38.7%",
+            "width": "100.0%",
+            "height": "61.3%"
+          },
+          "widgetId": "widget_5",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": true,
+              "width": "STRETCH"
+            },
+            "hCenter": false,
+            "vCenter": false
+          },
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "61.2%",
+            "bottom": "0.0%",
+            "width": "100%",
+            "height": "38.8%"
+          },
+          "widgetId": "widget_6",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": true,
+              "bottom": false,
+              "width": "STRETCH"
+            },
+            "hCenter": false
+          }
+        }
+      }
+    },
+    "layout_2": {
+      "type": "FIXED",
+      "order": [
+        "0",
+        "1"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "-0.0%",
+            "right": "66.6%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "33.4%",
+            "height": "100%"
+          },
+          "widgetId": "widget_3",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "33.4%",
+            "right": "-0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "66.6%",
+            "height": "100.0%"
+          },
+          "widgetId": "widget_4",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      }
+    },
+    "layout_3": {
+      "type": "FIXED",
+      "label": "Map FixedLayout"
+    },
+    "layout_4": {
+      "type": "FIXED",
+      "label": "Map FixedLayout"
+    },
+    "layout_5": {
+      "type": "FIXED",
+      "label": "Map FixedLayout"
+    },
+    "layout_6": {
+      "type": "FIXED",
+      "label": "Map FixedLayout"
+    }
+  },
+  "exbVersion": "1.4.0",
+  "mainSizeMode": "LARGE",
+  "theme": "themes/default/",
+  "forBuilderAttributes": {
+    "lockLayout": false
+  },
+  "template": "blankfullscreen",
+  "attributes": {
+    "portalUrl": "https://ps-dbs.maps.arcgis.com",
+    "clientId": "",
+    "title": "Multiple Maps Demo",
+    "description": ""
+  },
+  "customTheme": {
+    "sharedThemeVariables": {
+      "header": {
+        "bg": "#007ac2",
+        "color": "#ffffff"
+      },
+      "body": {
+        "bg": "#ebebeb",
+        "link": "#00619b"
+      },
+      "button": {
+        "bg": "#288835",
+        "color": "#ffffff"
+      },
+      "logo": {
+        "small": "https://ps-dbs.maps.arcgis.com/sharing/rest/content/items/bc1356b05f954e2b98b23230f834cad6/data",
+        "link": "https://www.esri.com/en-us/home"
+      }
+    }
+  },
+  "widgets": {
+    "widget_1": {
+      "uri": "widgets/multiple-maps/",
+      "version": "1.4.0",
+      "label": "multiple-maps 1",
+      "config": {
+        "exampleConfigProperty": "test"
+      },
+      "id": "widget_1"
+    },
+    "widget_2": {
+      "uri": "widgets/common/navigator/",
+      "version": "1.4.0",
+      "label": "Views Navigation 1",
+      "config": {
+        "data": {
+          "type": "AUTO",
+          "section": "section_1",
+          "views": [
+            "view_1",
+            "view_2"
+          ]
+        },
+        "display": {
+          "type": "nav",
+          "navStyle": "pills",
+          "standard": {
+            "gap": "0px",
+            "scrollable": true,
+            "showIcon": false,
+            "showText": true,
+            "iconPosition": "start",
+            "textAlign": "center"
+          },
+          "vertical": false,
+          "advanced": false,
+          "variant": null
+        }
+      },
+      "id": "widget_2"
+    },
+    "widget_3": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.4.0",
+      "label": "Map 1",
+      "config": {
+        "toolConifg": {
+          "canZoom": true,
+          "canHome": true,
+          "canSearch": true,
+          "canNavigation": true
+        },
+        "isUseCustomMapState": false,
+        "initialMapDataSourceID": "dataSource_2",
+        "initialMapState": null
+      },
+      "id": "widget_3",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_3"
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2",
+          "mainDataSourceId": "dataSource_2"
+        }
+      ]
+    },
+    "widget_4": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.4.0",
+      "label": "Map 2",
+      "config": {
+        "toolConifg": {
+          "canZoom": true,
+          "canHome": true,
+          "canSearch": true,
+          "canNavigation": true
+        },
+        "isUseCustomMapState": false
+      },
+      "id": "widget_4",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_4"
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1",
+          "mainDataSourceId": "dataSource_1"
+        }
+      ]
+    },
+    "widget_5": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.4.0",
+      "label": "Map 3",
+      "config": {
+        "toolConifg": {
+          "canZoom": true,
+          "canHome": true,
+          "canSearch": true,
+          "canNavigation": true
+        },
+        "isUseCustomMapState": false
+      },
+      "id": "widget_5",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_5"
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_3",
+          "mainDataSourceId": "dataSource_3"
+        }
+      ]
+    },
+    "widget_6": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.4.0",
+      "label": "Map 4",
+      "config": {
+        "toolConifg": {
+          "canZoom": true,
+          "canHome": true,
+          "canSearch": true,
+          "canNavigation": true
+        },
+        "isUseCustomMapState": false
+      },
+      "id": "widget_6",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_6"
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_4",
+          "mainDataSourceId": "dataSource_4"
+        }
+      ]
+    }
+  },
+  "widgetsManifest": {},
+  "views": {
+    "view_1": {
+      "id": "view_1",
+      "label": "View 1",
+      "layout": {
+        "LARGE": "layout_1"
+      }
+    },
+    "view_2": {
+      "id": "view_2",
+      "label": "View 2",
+      "layout": {
+        "LARGE": "layout_2"
+      }
+    }
+  },
+  "sections": {
+    "section_1": {
+      "id": "section_1",
+      "label": "Section 1",
+      "views": [
+        "view_1",
+        "view_2"
+      ]
+    }
+  },
+  "dialogs": {},
+  "dataSources": {
+    "dataSource_1": {
+      "type": "WEB_MAP",
+      "itemId": "c3ce10ac57984cf68cc8a08feb5b031f",
+      "id": "dataSource_1",
+      "portalUrl": "https://ps-dbs.maps.arcgis.com"
+    },
+    "dataSource_2": {
+      "type": "WEB_MAP",
+      "itemId": "c5bc13d3f6af4af1b5f4a539e7f40cce",
+      "id": "dataSource_2",
+      "portalUrl": "https://ps-dbs.maps.arcgis.com"
+    },
+    "dataSource_3": {
+      "type": "WEB_MAP",
+      "itemId": "8f5759768df84b53b74f94c71a7f4a4f",
+      "id": "dataSource_3",
+      "portalUrl": "https://ps-dbs.maps.arcgis.com"
+    },
+    "dataSource_4": {
+      "type": "WEB_MAP",
+      "itemId": "2e24b92c615d4f5a838d7c80c86ae9f3",
+      "id": "dataSource_4",
+      "portalUrl": "https://ps-dbs.maps.arcgis.com"
+    }
+  },
+  "messageConfigs": {},
+  "pageStructure": [
+    {
+      "page_0": []
+    }
+  ],
+  "timestamp": 1622701709378
+}
